@@ -1,0 +1,144 @@
+/* universal styles */
+body{
+    font-family: 'Karla', sans-serif;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+/* welcome section */
+#welcome{
+background: linear-gradient( #C7D3D4FF, #BE93D4);
+}
+
+#kalam{
+    height: 123%;
+    width: 57%;
+    position: relative;
+top: 14%;
+border-radius: 100% ;
+}
+#title{
+    font-family: 'Rancho', cursive;
+    margin-top: 5rem;
+}
+ .welcome-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} 
+#rocket{
+    position: relative;
+    top: 10%;
+}
+/* intro section */
+#intro{
+background: linear-gradient(  #BE93D4,  #E39FF6);
+font-weight: 600;
+  padding: 4%;
+  text-align: center;
+} 
+#intro h2{
+    margin-top: 3rem;
+}
+h2{                                                /*utility classs*/
+    font-family: 'Cuprum', sans-serif;
+    font-size: 2.3rem;
+    margin-bottom:3% ;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+#intro p{
+    font-size: 1.2rem;
+    line-height:2;
+    padding: 7% auto;
+}
+ 
+#img-div{
+    width: 100%;
+    position: relative;
+}
+#img-div img{
+    width: 100%;
+   max-width: 15rem;
+   display: block;
+   margin: auto;
+}
+#img-caption{
+    font-size: 16px;
+    font-weight: lighter;
+    color: rgb(32, 31, 31);
+}
+/* biography */
+#Biography{
+    background:linear-gradient(#E39FF6, #f8dafe) ;
+    padding: 4% 4%;
+  }
+#tribute-info{
+padding: 5% 5%;
+text-align: left;
+  }
+  li{
+      padding-bottom: 2%;
+  }
+  /* sayings */
+  #sayings{
+      background:linear-gradient(#f8dafe, #FF00FF) ;
+    
+  }
+ .carousel-item{
+     padding: 12% 15%;
+     font-size: 2rem;
+ }
+ 
+ /* Testimonial */
+ #testimonials{
+     background:linear-gradient(#FF00FF, #EE82EE) ;
+     padding: 5% ;
+ }
+ .test-image{
+     border-radius: 50%;
+     height: 12rem;
+     width: 12rem;
+     margin: 1rem;
+   
+ }
+ #obama{
+     margin-bottom: 0;
+ }
+ #obama-p{
+     position: relative;
+     right: 14%;
+ }
+ .paragraph-img{
+     margin-top: 14%;
+     font-size: 1.2rem;
+     font-weight: 700;
+ }
+ 
+ /* footer */
+ #footer{
+     background:linear-gradient(#EE82EE, #a45ee5);
+     padding: 3% 5%;
+ }
+ #footer p{
+     margin-bottom: 3rem;
+     margin-top: 2rem;
+ }
+    
+ #footer img{
+     height:14%;
+     width: 30%;
+ }
+ #tribute-link{
+text-decoration: none;
+color: black;
+ }
+ #last-p{
+     font-size: 1.2rem;
+ }
+ #last-img-p{
+    margin: 2% auto 8%;
+
+ }
